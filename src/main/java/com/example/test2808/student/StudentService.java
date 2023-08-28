@@ -7,9 +7,6 @@ public interface StudentService {
     Student save(Student student);
     Student findByEmail(String email);
     Student update(Student student);
-<<<<<<< HEAD
-    void delete(String email);
-=======
     void delete(Integer id);
->>>>>>> cecd741 (initializing spring boot project)
+
 }

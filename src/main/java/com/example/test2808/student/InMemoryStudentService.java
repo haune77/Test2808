@@ -33,12 +33,7 @@ public class InMemoryStudentService implements StudentService{
     }
 
     @Override
-<<<<<<< HEAD
-    public void delete(String email) {
-        dao.delete(email);
-=======
-    public void delete(Integer id) {
+        public void delete(Integer id) {
         dao.delete(id);
->>>>>>> cecd741 (initializing spring boot project)
     }
 }

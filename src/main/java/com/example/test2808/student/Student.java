@@ -1,9 +1,7 @@
 package com.example.test2808.student;
 
-<<<<<<< HEAD
-=======
+
 import jakarta.persistence.*;
->>>>>>> cecd741 (initializing spring boot project)
 import lombok.*;
 
 import java.time.LocalDate;
