@@ -40,10 +40,25 @@ public class InMemoryStudentDao {
     }
 
 
+<<<<<<< HEAD
     public void delete(String email) {
         var student=findByEmail(email);
+=======
+    public void delete(Integer id) {
+        var student=findById(id);
+>>>>>>> cecd741 (initializing spring boot project)
         if (student!=null){
             STUDENT.remove(student);
         }
     }
+<<<<<<< HEAD
+=======
+
+    private Student findById(Integer id) {
+        return STUDENT.stream()
+                .filter(student -> id.equals(student.getId()))
+                .findFirst()
+                .orElse(null);
+    }
+>>>>>>> cecd741 (initializing spring boot project)
 }
